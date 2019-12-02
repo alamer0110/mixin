@@ -1,0 +1,21 @@
+body>header>h1>nav>{
+    a{
+    @include flexbox(flex,1.2em);
+    @include flex1;
+    }
+}
+body{
+    @include mp(20px,30px);
+    section{
+        @include flex;
+
+    span{
+        @include transition ($greenop15,all 1.5 ease-in 1.5);
+        @include flex;
+        border: 2px solid gray;
+    }
+    label{
+        @include mp (10px,10px)
+    }
+    }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/styles.min.css" rel="stylesheet">
+    <title>Mixins</title>
+</head>
+<style>
+header{
+    padding: 20px;
+    margin: 10px 0;
+    background-color: lightgrey;
+    position: relative;
+    top: 0;
+    text-align: center;
+}
+
+header h1{
+    margin-bottom: 25px;
+}
+
+header nav a{
+   padding: 15px 50px;
+   margin: 0 10px;
+   text-decoration: none;
+   background-color: darkgrey;
+   color: white;
+   font-size: 1.2em;
+}
+</style>
+<body>
+    <header>
+        <h1>Mad9013 - Mixins Assignment</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <section>
+        <span>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" placeholder="Enter your first name">
+        </span>
+        <span>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" placeholder="Enter your last name">
+        </span>
+    </section>
+    <section>
+        <span>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Enter your email">
+        </span>
+        <span>
+            <label for="phonenumber">Phone number</label>
+            <input type="tel" name="phonenumber" placeholder="Enter your number">
+        </span>
+        <span>
+            <input type="submit" value="Contact Us">
+        </span>
+    </section>
+</body>
+</html>
